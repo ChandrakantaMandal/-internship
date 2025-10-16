@@ -1,0 +1,75 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8fafc;
+  padding: 2rem;
+}
+
+.table-container {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.table-title {
+  margin-bottom: 1rem;
+  color: #334155;
+  font-weight: 600;
+  text-align: center;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #f1f5f9 !important;
+  color: #334155 !important;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 12px !important;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+
+.p-sortable-column-icon {
+  display: none !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 8px 12px !important;
+  font-size: 0.9rem;
+  color: #475569;
+  vertical-align: middle;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #f8fafc !important;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  background: #f1f5f9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.footer-input {
+  padding: 4px 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  outline: none;
+  width: 150px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  color: #475569;
+}
